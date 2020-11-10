@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:xenial
 
 RUN apt-get -y upgrade && \
     apt-get -y dist-upgrade && \
